@@ -1,6 +1,7 @@
 const express = require('express');
-const config = require('./config');
-const pedidos = require('./modules/orders/rutes');
+const config = require('./config/config');
+const pedidos = require('./routes/orders');
+
 const app = express();
 
 // configure
